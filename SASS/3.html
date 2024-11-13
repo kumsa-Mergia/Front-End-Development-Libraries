@@ -1,0 +1,28 @@
+<style type='text/scss'>
+// Declare the shape mixin
+@mixin shape($w, $h, $bg-color) {
+  width: $w;
+  height: $h;
+  background-color: $bg-color;
+}
+
+// Apply the mixin to #square with specified values
+#square {
+  @include shape(50px, 50px, red);
+}
+
+// Apply the mixin to #rect-a with specified values
+#rect-a {
+  @include shape(100px, 50px, blue);
+}
+
+// Apply the mixin to #rect-b with specified values
+#rect-b {
+  @include shape(50px, 100px, orange);
+}
+
+</style>
+
+<div id="square"></div>
+<div id="rect-a"></div>
+<div id="rect-b"></div>
