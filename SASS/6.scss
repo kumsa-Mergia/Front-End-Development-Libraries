@@ -1,0 +1,15 @@
+<style type='text/scss'>
+$colors: blue, black, red;
+
+@each $color in $colors {
+  .#{$color}-bg {
+    background-color: $color;
+  }
+}
+
+
+  div {
+    height: 200px;
+    width: 200px;
+  }
+</style>
