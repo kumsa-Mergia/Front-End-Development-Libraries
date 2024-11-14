@@ -1,0 +1,13 @@
+<style type='text/scss'>
+
+$index: 1;
+
+@while $index <= 5 {
+  .text-#{$index} {
+    font-size: 15px * $index;
+  }
+  $index: $index + 1;
+}
+
+
+</style>
