@@ -5,11 +5,11 @@ Course Overview
 
 ## This course includes lessons on:
 
-    - **React: Learn to build dynamic user interfaces with reusable components.**
-    - **Redux: Manage application state in a predictable manner, especially for larger applications.**
-    - **jQuery: Manipulate the DOM efficiently with a powerful JavaScript library.**
-    - **Bootstrap: Utilize a responsive framework to design flexible and mobile-first layouts.**
-    - **SASS: Add powerful features to CSS, like variables, nested rules, and mixins.**
+- **React: Learn to build dynamic user interfaces with reusable components.**
+- **Redux: Manage application state in a predictable manner, especially for larger applications.**
+- **jQuery: Manipulate the DOM efficiently with a powerful JavaScript library.**
+- **Bootstrap: Utilize a responsive framework to design flexible and mobile-first layouts.**
+- **SASS: Add powerful features to CSS, like variables, nested rules, and mixins.**
 
 # Projects
 
