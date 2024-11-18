@@ -14,13 +14,13 @@ Course Overview
 # Projects
 
 As part of the course, I’ll be working on the following projects:
-```
-    Random Quote Machine
-    Markdown Previewer
-    Drum Machine
-    JavaScript Calculator
-    25 + 5 Clock
-```
+
+- **Random Quote Machine**
+- **Markdown Previewer**
+- **Drum Machine**
+- **JavaScript Calculator**
+- **25 + 5 Clock**
+    
 These projects apply various skills and libraries from the course to create fully functional web applications.
 Getting Started
 
