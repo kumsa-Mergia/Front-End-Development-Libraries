@@ -1,16 +1,27 @@
-// Change code below this line
-class MyComponent extends React.Component {
+const CurrentDate = (props) => {
+  return (
+    <div>
+      {/* Access the date prop and display it */}
+      <p>The current date is: {props.date}</p>
+    </div>
+  );
+};
+
+class Calendar extends React.Component {
   constructor(props) {
-    super(props); // Always call the parent class constructor
+    super(props);
   }
   render() {
     return (
       <div>
-        <h1>My First React Component!</h1>
+        <h3>What date is it?</h3>
+        {/* Pass the current date as a prop to CurrentDate */}
+        <CurrentDate date={Date()} />
       </div>
     );
   }
 }
-// Render MyComponent to the DOM
+
+// Render Calendar to the DOM
 const root = document.getElementById("challenge-node");
-ReactDOM.render(<MyComponent />, root);
+ReactDOM.render(<Calendar />, root);
