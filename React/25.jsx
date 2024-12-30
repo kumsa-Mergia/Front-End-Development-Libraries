@@ -15,7 +15,7 @@ class MyComponent extends React.Component {
         visibility: !prevState.visibility // Toggle visibility
       }));
     }
-  
+
     render() {
       return (
         <div>
